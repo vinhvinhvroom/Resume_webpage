@@ -1,0 +1,162 @@
+header{
+  background-color: #38FF92;
+  height: 175px;
+  padding: 10px;
+}
+
+.name{
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+}
+
+h2.blurb{
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Fredoka One', cursive;
+  text-shadow: 2px 3px white;
+}
+
+.contact-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 50px;
+}
+
+#address{
+  width: 210px;
+}
+
+.contact{
+  margin: 15px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: -5px;
+}
+
+
+img{
+  height: 300px;
+  display: block;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  border: solid;
+  border-radius: 10%;
+}
+
+body{
+  background-color: #45FDFF;
+}
+
+.portfolio{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 20px;
+  width: 750px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.link-flex{
+  display: flex;
+  padding: 10px;
+  margin: 25px;
+  justify-content: center;
+}
+
+.wrappers{
+  padding: 10px;
+}
+
+h2{
+  text-align: center;
+  font-family: 'Fredoka One', cursive;
+  font-size: 20px;
+  text-shadow: 2px 3px white;
+}
+
+h3{
+  text-align: center;
+  font-family: 'Fredoka One', cursive;
+  font-size: 15px;
+}
+
+.resume-wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.resume-flex{
+  width: 30%;
+}
+
+p{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+
+li{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+
+a.links{
+  font-family: 'Gothic A1', sans-serif;
+  color: red;
+  padding: 10px;
+  margin: 20px;
+  margin-top: -10px;
+  text-decoration: none;
+  font-size: 20px;
+  text-shadow: 2px 2px white;
+}
+
+a:hover{
+  border: none;
+  border-bottom: 5px solid #FF8429;
+  transition: border 0.5s ease;
+}
+
+.projects-quotes-outer{
+  height: 400px;
+  width: 500px;
+  margin: auto;
+}
+
+.projects-quotes-inner{
+  border: solid;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  height: 100%;
+  width: 75%;
+  background-color: #CAE86B;
+}
+
+button{
+  margin: 20px;
+  background-color: #38FF92;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 20px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  box-shadow: 2px 2px white;
+}
+
+#projects-list{
+  height: 100px;
+}
+
+.projects-links{
+  color: red;
+  text-decoration: none;
+}
